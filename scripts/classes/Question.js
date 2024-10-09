@@ -18,7 +18,7 @@ export default class Question {
     // const response = await fetch("/public/data/questions.json");
     // const response = await fetch("../../public/data/questions.json");
     // const response = await fetch("/questions.json");
-    const response = await fetch("../");
+    const response = await fetch("../questions.json");
     this.questions = await response.json();
   }
 
